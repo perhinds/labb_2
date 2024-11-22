@@ -10,10 +10,9 @@ const cardStyle = css`
 `
 
 const WeatherCard = ({ weather }) => {
-
-      // Kontrollera om weather är undefined eller null
+    // Kontrollera om weather är odfinerad eller null
     if (!weather) {
-        return <div>Data saknas</div>;
+        return <div>Data saknas</div>
     }
     // Kontrollera om varje parameter finns
     const temperature =
