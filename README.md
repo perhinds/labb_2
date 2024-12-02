@@ -1,1 +1,2 @@
-ITHS Labb 2
+# Labb_2
+React kurs
